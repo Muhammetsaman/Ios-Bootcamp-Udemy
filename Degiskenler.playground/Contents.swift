@@ -25,15 +25,3 @@ print("Ürün adı       : \(urun_adi)")
 print("Ürün adet      : \(urun_adet)")
 print("Ürün fiyat     : \(urun_fiyat) ₺")
 print("Ürün tedarikçi : \(urun_tedarikci)")
-
-
-
-
-var sayi = 10
-print(sayi)
-sayi = 20
-print(sayi)
-
-let numara = 100
-print(numara)
-

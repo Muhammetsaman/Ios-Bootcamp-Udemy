@@ -13,7 +13,6 @@ print(ogrenciBoy)
 print(ogrenciBasharf)
 print(ogrenciDevamEdiyorMu)
 
-//
 
 var urun_id:Int = 3416
 var urun_adi:String = "Macbook Pro"

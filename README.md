@@ -11,3 +11,8 @@ Gün 2 : İf,switch,for,while döngüleri
 Gün 3 : Fonksiyonlar,Overloading
         Static,Enumeration,Composition
         Kalıtım,Overide,Upcasting,Downcasting,Protocol,Extension,Closure
+
+
+Gün 4 : Collections,Arrays
+        Set,Dictionary,Guard,Do try catch
+        İos Giriş,Xcode arayüzü,Tasarım giriş,Renk seçimi

@@ -134,7 +134,7 @@ var k2 = kategoriler(kategori_id: 2, kategori_ad: "Korku")
 var k3 = kategoriler(kategori_id: 3, kategori_ad: "Aksiyon")
 
 var y1 = yonetmenler(yonetmen_id: 1, yonetmen_ad: "Christoper Nolan")
-var y2 = yonetmenler(yonetmen_id: 2, yonetmen_ad: "Quetin Tarantino")
+var y2 = yonetmenler(yonetmen_id: 2, yonetmen_ad: "Quentin Tarantino")
 var y3 = yonetmenler(yonetmen_id: 3, yonetmen_ad: "Nuri Bilge Ceylan")
 
 var f1 = filmler(film_id: 1, film_ad: "Oppenheimer", film_yil: 2023, kategori: k1, yonetmen: y1)

@@ -16,3 +16,23 @@ Gün 3 : Fonksiyonlar,Overloading
 Gün 4 : Collections,Arrays
         Set,Dictionary,Guard,Do try catch
         İos Giriş,Xcode arayüzü,Tasarım giriş,Renk seçimi
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NOT : 4. günden sonra ios derslerine başlayacağım için projeler dışında ki bölümlerde sadece notlarımı ve neler öğretildiğinden bahsedeceğim.

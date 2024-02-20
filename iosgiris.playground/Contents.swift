@@ -2,7 +2,13 @@ import UIKit
 
 
 
-/*  Bu derste ;
+/*              İOS Giriş Ders 1
+ 
+ 
+ 
+ 
+ 
+ Bu derste ;
  
     İos arayüzüne giriş yaptım ve kısaca tanıtıldı.
  
@@ -25,3 +31,31 @@ import UIKit
     pizza satın alma ekranı için çalışmalara başladık.
  
  */
+
+
+
+
+
+
+
+
+/*          İOS Giriş Ders 2
+
+ Tasarım konusuna giriş yapıldı.
+ 
+ Pizza satın alma ekranının yarısı tasarlandı.
+ 
+ AutoLayout-Align-Pin-Constraint konularına giriş yapıldı.
+ 
+ Çoklu ekran desteği
+ 
+ StackView ile birden fazla yapının birbirine nasıl bağlanılacağı öğrenildi.
+ 
+ Yazı Fontları, boyutları, tasarımları ile ilgili yeni şeyler öğretildi.
+ 
+ google font sitesini sık sık ziyaret edeceğim
+ 
+
+ 
+ 
+*/

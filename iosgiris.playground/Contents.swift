@@ -82,3 +82,24 @@ import UIKit
  
 */
 
+
+
+
+/*
+                    İOS Giriş ders 3
+ 
+ Birden fazla sayfa oluşturdum
+ 
+ Oluşturduğum sayfalara farklı komutlar vermek için değerler atadım
+ 
+ Bu değerleri sürükle bırak yöntemiyle classlara aktardım
+ 
+ Yine Sürükle bırak yöntemiyle ve Navigation controller yoluyla sayfalar arası bağlantı kurdum ve birbirleri arasında geçişi öğrendim
+ 
+ Bazı hazır komutlar öğrendim, bu komutları sık kullanacağım için farklı bir github reposunda ayrıca not edeceğim.
+ 
+ 
+ 
+ */
+
+

@@ -31,3 +31,22 @@ import UIKit
  
  
  */
+
+
+
+/*         DERS 2
+ 
+ 
+ TabBar kullanmının detaylarına giriş yaptım.
+ 
+ Tabbarda ki butonların renğini, arka planını değiştirmeyi, bunlara bildirim uyarısı eklemeyi öğrendim.
+ 
+ Tabbarı, navigation controller ile kullanarak sayfa geçişlerini sağlayabiliriz.
+ 
+ Kullanıcı etkileşimi konusuna giriş yaptım. (Alert , ActionSheet)
+ 
+ Bunları kullanarak kullanıcıdan veriler alabilirim
+ 
+ 
+ 
+ */

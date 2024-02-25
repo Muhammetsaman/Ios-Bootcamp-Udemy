@@ -1,0 +1,39 @@
+
+/* Class = "UIButton"; configuration.title = "Pepper"; ObjectID = "3C5-H5-6wM"; */
+"3C5-H5-6wM.configuration.title" = "Biber";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "3C5-H5-6wM"; */
+"3C5-H5-6wM.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "20 min"; ObjectID = "FNs-eq-V2m"; */
+"FNs-eq-V2m.text" = "20 Dk";
+
+/* Class = "UILabel"; text = "Meat lover, get ready to meat your pizza!"; ObjectID = "K9p-xt-W37"; */
+"K9p-xt-W37.text" = "Et sever,pizzanla tanışmaya hazır mısın?!";
+
+/* Class = "UIButton"; configuration.title = "ADD TO CART"; ObjectID = "LKV-CV-98v"; */
+"LKV-CV-98v.configuration.title" = "Sepete Ekle";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "LKV-CV-98v"; */
+"LKV-CV-98v.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Cheese"; ObjectID = "Q1V-29-Q3q"; */
+"Q1V-29-Q3q.configuration.title" = "Peynir";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Q1V-29-Q3q"; */
+"Q1V-29-Q3q.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Beef Cheese"; ObjectID = "TIR-iJ-82c"; */
+"TIR-iJ-82c.text" = "Etli Peynirli";
+
+/* Class = "UILabel"; text = "$ 5.85"; ObjectID = "mN0-hN-Qo2"; */
+"mN0-hN-Qo2.text" = "140 ₺";
+
+/* Class = "UIButton"; configuration.title = "Sausage"; ObjectID = "qWy-vk-nmC"; */
+"qWy-vk-nmC.configuration.title" = "Sosis";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "qWy-vk-nmC"; */
+"qWy-vk-nmC.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Delivery"; ObjectID = "xGh-7s-yJn"; */
+"xGh-7s-yJn.text" = "Teslimat";

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sMt-YQ-kjL">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TasarimCalismasi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beef Cheese" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TIR-iJ-82c">
+                                <rect key="frame" x="129" y="119.00000000000001" width="172" height="34.666666666666671"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                <color key="textColor" name="anaRenk"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="resim" translatesAutoresizingMaskIntoConstraints="NO" id="N2s-ix-gKc">
+                                <rect key="frame" x="131.66666666666669" y="166.33333333333337" width="166.66666666666669" height="166.66666666666663"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="oz3-fm-xhh">
+                                <rect key="frame" x="91.666666666666671" y="349" width="246.66666666666663" height="28"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q1V-29-Q3q">
+                                        <rect key="frame" x="0.0" y="0.0" width="70.333333333333329" height="28"/>
+                                        <color key="backgroundColor" name="anaRenk"/>
+                                        <color key="tintColor" name="yaziRenk1"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Cheese">
+                                            <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="12"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qWy-vk-nmC">
+                                        <rect key="frame" x="88.333333333333329" y="0.0" width="69.999999999999986" height="28"/>
+                                        <color key="backgroundColor" name="anaRenk"/>
+                                        <color key="tintColor" name="yaziRenk1"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Sausage">
+                                            <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="11"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3C5-H5-6wM">
+                                        <rect key="frame" x="176.33333333333331" y="0.0" width="70.333333333333314" height="28"/>
+                                        <color key="backgroundColor" name="anaRenk"/>
+                                        <color key="tintColor" name="yaziRenk1"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Pepper">
+                                            <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="12"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20 min" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FNs-eq-V2m">
+                                <rect key="frame" x="182.66666666666666" y="393" width="64.666666666666657" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" name="yaziRenk2"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Delivery" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xGh-7s-yJn">
+                                <rect key="frame" x="176.33333333333334" y="433" width="77.333333333333343" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" name="anaRenk"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meat lover, get ready to meat your pizza!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K9p-xt-W37">
+                                <rect key="frame" x="32" y="473" width="366" height="52.666666666666629"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                                <color key="textColor" name="yaziRenk2"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 5.85" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mN0-hN-Qo2">
+                                <rect key="frame" x="16.000000000000007" y="820.33333333333337" width="115.66666666666669" height="45.666666666666629"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="38"/>
+                                <color key="textColor" name="anaRenk"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LKV-CV-98v">
+                                <rect key="frame" x="262" y="820.33333333333337" width="152" height="45.666666666666629"/>
+                                <color key="backgroundColor" name="anaRenk"/>
+                                <color key="tintColor" name="yaziRenk1"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="ADD TO CART">
+                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="19"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="LKV-CV-98v" firstAttribute="centerY" secondItem="mN0-hN-Qo2" secondAttribute="centerY" id="0do-64-pBp"/>
+                            <constraint firstItem="oz3-fm-xhh" firstAttribute="centerX" secondItem="TIR-iJ-82c" secondAttribute="centerX" id="21f-di-S4w"/>
+                            <constraint firstItem="FNs-eq-V2m" firstAttribute="top" secondItem="oz3-fm-xhh" secondAttribute="bottom" constant="16" id="HeU-IR-ehK"/>
+                            <constraint firstItem="K9p-xt-W37" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="ITC-4e-LwY"/>
+                            <constraint firstItem="xGh-7s-yJn" firstAttribute="centerX" secondItem="FNs-eq-V2m" secondAttribute="centerX" id="Ibs-tw-VAS"/>
+                            <constraint firstItem="mN0-hN-Qo2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Mrh-Cu-OkU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="LKV-CV-98v" secondAttribute="bottom" constant="32" id="OW4-gm-lka"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="mN0-hN-Qo2" secondAttribute="bottom" constant="32" id="Pza-jl-di0"/>
+                            <constraint firstItem="xGh-7s-yJn" firstAttribute="top" secondItem="FNs-eq-V2m" secondAttribute="bottom" constant="16" id="Uvl-sp-mST"/>
+                            <constraint firstItem="oz3-fm-xhh" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="349" id="cyv-wI-eMY"/>
+                            <constraint firstItem="TIR-iJ-82c" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="czz-LS-ReY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LKV-CV-98v" secondAttribute="trailing" constant="16" id="dN2-hc-wXf"/>
+                            <constraint firstItem="K9p-xt-W37" firstAttribute="top" secondItem="xGh-7s-yJn" secondAttribute="bottom" constant="16" id="eVh-nK-RbR"/>
+                            <constraint firstItem="oz3-fm-xhh" firstAttribute="top" secondItem="N2s-ix-gKc" secondAttribute="bottom" constant="16" id="jo4-UX-qTJ"/>
+                            <constraint firstItem="FNs-eq-V2m" firstAttribute="top" secondItem="oz3-fm-xhh" secondAttribute="bottom" constant="16" id="oNV-nH-grU"/>
+                            <constraint firstItem="oz3-fm-xhh" firstAttribute="centerX" secondItem="N2s-ix-gKc" secondAttribute="centerX" id="p04-xB-7G8"/>
+                            <constraint firstItem="oz3-fm-xhh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="91.666666666666686" id="rXl-XR-fwv"/>
+                            <constraint firstItem="K9p-xt-W37" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="s9K-g7-fDa"/>
+                            <constraint firstItem="oz3-fm-xhh" firstAttribute="centerX" secondItem="FNs-eq-V2m" secondAttribute="centerX" id="y4u-F6-9tR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="K9p-xt-W37" secondAttribute="trailing" constant="32" id="yUX-iL-tg8"/>
+                            <constraint firstItem="FNs-eq-V2m" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zDY-QE-vlj"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="edv-sY-b7c"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="294.41860465116281" y="-6.437768240343348"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="xUZ-4o-T3f">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="sMt-YQ-kjL" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vLK-6X-mSf">
+                        <rect key="frame" x="0.0" y="59" width="430" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="l3Z-bX-MPS"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9ik-gJ-uAP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-631.29770992366412" y="-6.3380281690140849"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="resim" width="166.66667175292969" height="166.66667175292969"/>
+        <namedColor name="anaRenk">
+            <color red="0.79600000381469727" green="0.125" blue="0.125" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="yaziRenk1">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="yaziRenk2">
+            <color red="0.3880000114440918" green="0.3880000114440918" blue="0.3880000114440918" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

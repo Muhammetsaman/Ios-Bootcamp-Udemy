@@ -50,3 +50,21 @@ import UIKit
  
  
  */
+
+
+
+/*         DERS 3
+ 
+ Textfied konusuna giriş yaptım
+ 
+ İmageView ile birkac farklı görsel ekleyip butonlarla bu görseller arasında geçiş yaptım
+ 
+ Switch yapısını işledim ve buton kullanarak switch durumunu konsola aktardım
+ 
+ Segmented Controller yapısına giriş yaptım. Listelemele işlemlerinde çok faydalı.
+ 
+ 
+ 
+ */
+
+

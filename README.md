@@ -35,7 +35,9 @@ Gün 6 : Sayfalar Arası Veri Transferi - Yaşam Döngüsü - Navigation & TabBa
         Label-TextField-Button-ImageView-Switch-Segmented Controller
 
 
-
+Gün 7 : Slider-Stepper-Activity Indıcator-ScrollView
+        Kisiler Uygulaması Temel Tasarım
+        Kisiler Uygulaması Tasarım - SearchBar - TableView
 
 
 

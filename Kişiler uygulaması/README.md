@@ -6,7 +6,8 @@
 
 2. bölüm searchBar, TableView
 
+ <img src = "https://github.com/Muhammetsaman/War-Card-Game/assets/134100718/c5fa175e-6b77-417a-8e9e-fb93c8e81c48" alt="your Image Alt Text" width="200"/>
+ 
+<img src = "https://github.com/Muhammetsaman/War-Card-Game/assets/134100718/4643c67a-1d8f-4334-91f3-f703ea909b7b" alt="your Image Alt Text" width="200"/>
 
-https://github.com/Muhammetsaman/Udemy-ios/assets/134100718/fb1ce246-1a4b-4ef3-92e5-6f47565954dd)
-(https://github.com/Muhammetsaman/Udemy-ios/assets/134100718/911b92d5-83c0-4ddb-846a-0fb1571a52b2)
-(https://github.com/Muhammetsaman/Udemy-ios/assets/134100718/f2b101eb-c65c-4c4d-8b14-d586933612db)
+<img src = "https://github.com/Muhammetsaman/War-Card-Game/assets/134100718/9304752f-ea91-4ff3-8227-ae3c7af6e53d" alt="your Image Alt Text" width="200"/>

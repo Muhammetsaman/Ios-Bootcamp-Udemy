@@ -12,6 +12,9 @@ class Anasayfa: UIViewController {  // searchBar için protkol eklememiz gerekiy
     @IBOutlet weak var searchBar: UISearchBar!
     @IBOutlet weak var kisilerTableView: UITableView!
     var kisilerListesi = [kisiler]()
+    
+   var  viewModel = AnasayfaViewModel()
+    
   
     override func viewDidLoad() {
         kisilerTableView.dataSource = self
@@ -20,27 +23,17 @@ class Anasayfa: UIViewController {  // searchBar için protkol eklememiz gerekiy
         super.viewDidLoad()
         searchBar.delegate = self  // searchbar ile protokol arası bağlantı kurduk
         
-        var k1 = kisiler(kisi_id: 1, kisi_ad: "Ahmet", kisi_tel: "1111")
-        var k4 = kisiler(kisi_id: 4, kisi_ad: "Selim", kisi_tel: "5555")
-        var k2 = kisiler(kisi_id: 2, kisi_ad: "Zeynep", kisi_tel: "2222")
-        var k3 = kisiler(kisi_id: 3, kisi_ad: "Fatih", kisi_tel: "3333")
-        var k5 = kisiler(kisi_id: 5, kisi_ad: "Selen", kisi_tel: "9876")
-        var k6 = kisiler(kisi_id: 6, kisi_ad: "Ayşe", kisi_tel: "9076")
-        var k7 = kisiler(kisi_id: 7, kisi_ad: "Oguz", kisi_tel: "1234")
-        var k8 = kisiler(kisi_id: 8, kisi_ad: "İsmail", kisi_tel: "7635")
-        kisilerListesi.append(k1)
-        kisilerListesi.append(k2)
-        kisilerListesi.append(k3)
-        kisilerListesi.append(k4)
-        kisilerListesi.append(k5)
-        kisilerListesi.append(k6)
-        kisilerListesi.append(k7)
-        kisilerListesi.append(k8)
+        _ = viewModel.kisilerListesi.subscribe(onNext: { liste in
+            self.kisilerListesi = liste
+            self.kisilerTableView.reloadData()
+        
+        })
         
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        print("Anasayfaya dönüldü")
+        viewModel.kisileriYukle()
+        
     }
    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -56,7 +49,7 @@ class Anasayfa: UIViewController {  // searchBar için protkol eklememiz gerekiy
 // Genişletelim
 extension Anasayfa : UISearchBarDelegate {
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        print("Kişi Ara :  \(searchText)")
+        viewModel.ara(aramaKelimesi: searchText)
     }
 }
 
@@ -69,7 +62,7 @@ extension Anasayfa : UITableViewDelegate,UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let kisi = kisilerListesi[indexPath.row]
         
-        var hucre = tableView.dequeueReusableCell(withIdentifier: "kisilerHucre") as! KisilerHucre
+        let hucre = tableView.dequeueReusableCell(withIdentifier: "kisilerHucre") as! KisilerHucre
         hucre.labelkisiad.text = kisi.kisi_ad
         hucre.labelKisiTel.text = kisi.kisi_tel
         
@@ -93,7 +86,7 @@ extension Anasayfa : UITableViewDelegate,UITableViewDataSource {
             alert.addAction(iptalAction)
            
             let evetAction = UIAlertAction(title: "Evet", style: .destructive) { action in
-                print("Kişi Sil \(kisi.kisi_id!)")
+                self.viewModel.sil(kisi_id: kisi.kisi_id!)
                 
             }
             alert.addAction(evetAction)

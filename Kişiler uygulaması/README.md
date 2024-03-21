@@ -1,5 +1,7 @@
 2 bölümden oluşan basit bir kişiler uygulaması
 
+MVVM ile Güncellendi
+
 
 
 1. bölüm temel tasarım ve işlevler

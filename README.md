@@ -1,5 +1,5 @@
 Bu seride Udemy'den satın almış olduğum IOS kursunu bitirmeye çalışacağım.Bunu yapma amacım bootcamp deneyimi elde edebilmek ve olası bir bootcampe katılma durumunda biraz
-olsun fayda sağlayabileceğini düşünmem. 4.günden sonra ios kısmı başlıyor, bu günlerde neler öğrendiğimden bahsedeceğim. Aldığım ios notlarını ise farklı bir repoda gruplayacağım. Kurs 14 günlük ancak sindirerek ilerleyeceğimden bitirme hedefim yaklaşık 1 ay. Başlayalım;
+olsun fayda sağlayabileceğini düşünmem. 4.günden sonra ios kısmı başlıyor, bu günlerde neler öğrendiğimden bahsedeceğim. Aldığım ios notlarını ise farklı bir repoda gruplayacağım. Kurs 14 günlük ancak sindirerek ilerleyeceğim. Başlayalım;
 
 
                 SWİFT

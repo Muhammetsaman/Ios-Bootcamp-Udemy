@@ -26,9 +26,7 @@ Gün 4 : Collections,Arrays
 Gün 5 : Tasarım-AutoLayout-Align-Pin-Constraint-Çoklu Ekran Desteği-StackView
         Çoklu Dil Desteği - Uygulama Iconu - Uygulama Adı - Dark Mode
         Sayfa Oluşturma - Görsel Nesne Bağlama - Sayfalar Arası Geçişler
-
-
-
+        
 
 Gün 6 : Sayfalar Arası Veri Transferi - Yaşam Döngüsü - Navigation & TabBar
         TabBar Kullanımı - 4.Ödev - Kullanıcı Etkileşimi - Alert -ActionSheet
@@ -43,6 +41,17 @@ Gün 7 : Slider-Stepper-Activity Indıcator-ScrollView
 Gün 8 : Ürünler Uygulaması-Detaylı TableView
         Ürünler Uygulaması-Detaylı TableView
         Filmler Uygulaması tasarım-Detaylı CollectionView
+
+
+Gün 9 : Date&Time Picker-MVVM Giriş
+        MVVM ViewModel-RxSwift-Repository
+        Kişiler Uygulaması MVVM
+
+
+Gün 10 : Filmler Uygulaması MVVM-Depolama işlemler giriş
+         Veritabanı kullanımı-DB Browser-Sqlite
+
+        
 
 
 

@@ -50,6 +50,10 @@ Gün 9 : Date&Time Picker-MVVM Giriş
 
 Gün 10 : Filmler Uygulaması MVVM-Depolama işlemler giriş
          Veritabanı kullanımı-DB Browser-Sqlite
+         Kişiler Uygulaması SqLite
+
+
+Gün 
 
         
 

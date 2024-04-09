@@ -40,6 +40,13 @@ Gün 7 : Slider-Stepper-Activity Indıcator-ScrollView
         Kisiler Uygulaması Tasarım - SearchBar - TableView
 
 
+Gün 8 : Ürünler Uygulaması-Detaylı TableView
+        Ürünler Uygulaması-Detaylı TableView
+        Filmler Uygulaması tasarım-Detaylı CollectionView
+
+
+
+
 
 
 
